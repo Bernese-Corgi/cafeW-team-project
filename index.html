@@ -126,61 +126,224 @@
     </section>
     
     <!-- 이효형 2.홈-강좌 -->
-    <section class="home-class">
-      <h2 class="a11y-hidden">홈 강좌</h2>
-      <ul class="home-class__list">
-        <li class="home-class__item">
-          <p>멀티 캠퍼스 추천 강좌</p>
-        </li>
-        <li class="home-class__item">
-          <p>이듬 블렌디드 러닝 추천 강좌</p>
-        </li>
-      </ul>
-      <ul>
-        <li class="home-class__item">
-          <span>GIT &amp; HTML/CSS</span>
-          <span>입문자를 위한 GIT과 HTML&amp;CSS</span>
-          <span>4점</span>
-          <table class="class-information">
-            <tr>
-              <td>학습시간</td>
-              <td>09:00 ~ 17:00 (28시간)</td>
-              <td>난이도</td>
-              <td>초급</td>
-            </tr>
-            <tr>
-              <td>교육비 지원</td>
-              <td>고용보험 비환급</td>
-              <td>평가항목</td>
-              <td>출석률 100%</td>
-            </tr>
-            <tr>
-              <td>수료기준</td>
-              <td>총점 80점 이상시 수료</td>
-              <td>정원</td>
-              <td>24명</td>
-            </tr>
-            <tr>
-              <td>교재정보</td>
-              <td>입문자를 위한 GIT과 HTML&amp;CSS HTML&amp;CSS 웹사이트 개발과 디자인 기초 (35,000원)</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
-        </li>
-        <li class="home-class__item">
-          <span>RESPONSIVE WEB DESIGN STRATEGIES</span>
-          <span>반응형 웹디자인 전략</span>
-          <a href="#">강의 정보</a>
-        </li>
-      </ul>
-      <div class="button">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-      </div>
-    </section>
+    <section class="lecture">
+      <h2 class="a11y-hidden">cafe W 강좌</h2>
+      <section class="lecture-recommend">
+        <section class="multicampus">
+          <h3 class="multicampus__headline tab">
+            <a href="#" role="button">멀티 캠퍼스 추천 강좌</a>
+          </h3>
+          <ul class="multicampus__list">
+            <li class="multicampus__item">
+              <div class="multicampus-card__container">
+                <h4 class="multicampus-card__headline">GIT &amp; HTML/CSS</h4>          
+                <p class="multicampus-card__text">입문자를 위한 GIT과 HTML&amp;CSS</p>
+                <button type="button" class="multicampus-card__btn" aria-haspopup="dialog" aria-pressed="false">강의 정보</button>
+              </div>
+              <div class="multicampus-detail__container" role="dialog" aria-modal="false" aria-labelledby="multicampusDetail1">
+                <p class="multicampus-detail__subject" id="multicampusDetail1">GIT &amp; HTML/CSS</p>
+                <p class="multicampus-detail__text">입문자를 위한 GIT과 HTML&amp;CSS</p>
+                <span class="multicampus-detail__star" aria-hidden="true">★★★★<span>★</span></span>
+                <span class="multicampus-detail__score">4점</span>
+                <dl class="multicampus-detail__dl">
+                  <dt>학습시간</dt>
+                  <dd>09:00 ~ 17:00 (28시간)</dd>
+                  <dt>난이도</dt>
+                  <dd>초급</dd>
+                  <dt>교육비 지원</dt>
+                  <dd>고용보험 비환급</dd>
+                  <dt>평가항목</dt>
+                  <dd>출석률 100%</dd>
+                  <dt>수료기준</dt>
+                  <dd>총점 80점 이상시 수료</dd>
+                  <dt>정원</dt>
+                  <dd>24명</dd>
+                  <dt>교재정보</dt>
+                  <dd>입문자를 위한 GIT과 HTML&amp;CSS HTML&amp;CSS 웹사이트 개발과 디자인 기초 (35,000원)</dd>
+                </dl>
+                <button class="multicampus-detail__btn is-close-panel">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+            </li>
+            <li class="multicampus__item">
+              <div class="multicampus-card__container">
+                <h4 class="multicampus-card__headline">RESPONSIVE WEB DESIGN STRATEGIES</h4>          
+                <p class="multicampus-card__text">반응형 웹디자인 전략</p>
+                <button type="button" class="multicampus-card__btn" aria-haspopup="dialog" aria-pressed="false">강의 정보</button>
+              </div>
+              <div class="multicampus-detail__container" role="dialog" aria-modal="false" aria-labelledby="multicampusDetail1">
+                <p class="multicampus-detail__subject" id="multicampusDetail1">RESPONSIVE WEB DESIGN STRATEGIES</p>
+                <p class="multicampus-detail__text">반응형 웹디자인 전략</p>
+                <span class="multicampus-detail__star" aria-hidden="true">★★★★<span>★</span></span>
+                <span class="multicampus-detail__score">4점</span>
+                <dl class="multicampus-detail__dl">
+                  <dt>학습시간</dt>
+                  <dd>09:00 ~ 17:00 (28시간)</dd>
+                  <dt>난이도</dt>
+                  <dd>초급</dd>
+                  <dt>교육비 지원</dt>
+                  <dd>고용보험 비환급</dd>
+                  <dt>평가항목</dt>
+                  <dd>출석률 100%</dd>
+                  <dt>수료기준</dt>
+                  <dd>총점 80점 이상시 수료</dd>
+                  <dt>정원</dt>
+                  <dd>24명</dd>
+                  <dt>교재정보</dt>
+                  <dd>입문자를 위한 반응형 웹디자인 전략 (35,000원)</dd>
+                </dl>
+                <button class="multicampus-detail__btn is-close-panel">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+          <button class="multicampus__btn-prev" aria-label="이전버튼" title="이전버튼">
+            <svg></svg>
+          </button>
+          <button class="multicampus__btn-next" aria-label="다음버튼" title="다음버튼">
+            <svg></svg>
+          </button>
+          <div class="lecture-recommend-pagination__container">
+            <button class="play-state__btn"></button><!-- 여기 다시 생각하기 -->
+            <ul >
+              <li>
+                <button><!-- 여기 다시 생각하기 --></button>
+              </li>
+              <li>
+                <button><!-- 여기 다시 생각하기 --></button>
+              </li>
+              <li>
+                <button><!-- 여기 다시 생각하기 --></button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="euid-bl">
+          <h3 class="euid-bl__headline tab">
+            <a href="#" role="button">멀티 캠퍼스 추천 강좌</a>
+          </h3>
+          <ul class="euid-bl__list">
+            <li class="euid-bl__item">
+              <div class="euid-bl-card__container">
+                <h4 class="euid-bl-card__headline">UI STRUCTURE &amp; DESIGN COURSE</h4>          
+                <p class="euid-bl-card__text">UI 구조 디자인 과정</p>
+                <button type="button" class="euid-bl-card__btn" aria-haspopup="dialog" aria-pressed="false">강의 정보</button>
+              </div>
+              <div class="euid-bl-detail__container" role="dialog" aria-modal="false" aria-labelledby="euid-blDetail1">
+                <p class="euid-bl-detail__subject" id="euid-blDetail1">UI STRUCTURE &amp; DESIGN COURSE</p>
+                <p class="euid-bl-detail__text">UI 구조 디자인 과정</p>
+                <span class="euid-bl-detail__star" aria-hidden="true">★★★★<span>★</span></span>
+                <span class="euid-bl-detail__score">4점</span>
+                <dl class="euid-bl-detail__dl">
+                  <dt>학습시간</dt>
+                  <dd>09:00 ~ 17:00 (28시간)</dd>
+                  <dt>난이도</dt>
+                  <dd>초급</dd>
+                  <dt>교육비 지원</dt>
+                  <dd>고용보험 비환급</dd>
+                  <dt>평가항목</dt>
+                  <dd>출석률 100%</dd>
+                  <dt>수료기준</dt>
+                  <dd>총점 80점 이상시 수료</dd>
+                  <dt>정원</dt>
+                  <dd>24명</dd>
+                  <dt>교재정보</dt>
+                  <dd>입문자를 위한 GIT과 HTML&amp;CSS HTML&amp;CSS 웹사이트 개발과 디자인 기초 (35,000원)</dd>
+                </dl>
+                <button class="euid-bl-detail__btn is-close-panel">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+            </li>
+            <li class="euid-bl__item">
+              <div class="euid-bl-card__container">
+                <h4 class="euid-bl-card__headline">UI INTERACTION &amp; JUNIOR COURSE</h4>          
+                <p class="euid-bl-card__text">UI 인터렉션 주니어 과정</p>
+                <button type="button" class="euid-bl-card__btn" aria-haspopup="dialog" aria-pressed="false">강의 정보</button>
+              </div>
+              <div class="euid-bl-detail__container" role="dialog" aria-modal="false" aria-labelledby="euid-blDetail1">
+                <p class="euid-bl-detail__subject" id="euid-blDetail1">UI INTERACTION &amp; JUNIOR COURSE</p>
+                <p class="euid-bl-detail__text">UI 인터렉션 주니어 과정</p>
+                <span class="euid-bl-detail__star" aria-hidden="true">★★★★<span>★</span></span>
+                <span class="euid-bl-detail__score">4점</span>
+                <dl class="euid-bl-detail__dl">
+                  <dt>학습시간</dt>
+                  <dd>09:00 ~ 17:00 (28시간)</dd>
+                  <dt>난이도</dt>
+                  <dd>초급</dd>
+                  <dt>교육비 지원</dt>
+                  <dd>고용보험 비환급</dd>
+                  <dt>평가항목</dt>
+                  <dd>출석률 100%</dd>
+                  <dt>수료기준</dt>
+                  <dd>총점 80점 이상시 수료</dd>
+                  <dt>정원</dt>
+                  <dd>24명</dd>
+                  <dt>교재정보</dt>
+                  <dd>입문자를 위한 반응형 웹디자인 전략 (35,000원)</dd>
+                </dl>
+                <button class="euid-bl-detail__btn is-close-panel">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+            </li>
+            <li class="euid-bl__item">
+              <div class="euid-bl-card__container">
+                <h4 class="euid-bl-card__headline">REACT COURSE</h4>          
+                <p class="euid-bl-card__text">REACT 프로그래밍 과정</p>
+                <button type="button" class="euid-bl-card__btn" aria-haspopup="dialog" aria-pressed="false">강의 정보</button>
+              </div>
+              <div class="euid-bl-detail__container" role="dialog" aria-modal="false" aria-labelledby="euid-blDetail1">
+                <p class="euid-bl-detail__subject" id="euid-blDetail1">REACT COURSE</p>
+                <p class="euid-bl-detail__text">REACT 프로그래밍 과정</p>
+                <span class="euid-bl-detail__star" aria-hidden="true">★★★★<span>★</span></span>
+                <span class="euid-bl-detail__score">4점</span>
+                <dl class="euid-bl-detail__dl">
+                  <dt>학습시간</dt>
+                  <dd>09:00 ~ 17:00 (28시간)</dd>
+                  <dt>난이도</dt>
+                  <dd>초급</dd>
+                  <dt>교육비 지원</dt>
+                  <dd>고용보험 비환급</dd>
+                  <dt>평가항목</dt>
+                  <dd>출석률 100%</dd>
+                  <dt>수료기준</dt>
+                  <dd>총점 80점 이상시 수료</dd>
+                  <dt>정원</dt>
+                  <dd>24명</dd>
+                  <dt>교재정보</dt>
+                  <dd>입문자를 위한 반응형 웹디자인 전략 (35,000원)</dd>
+                </dl>
+                <button class="euid-bl-detail__btn is-close-panel">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+          <button class="euid-bl__btn-prev" aria-label="이전버튼" title="이전버튼">
+            <svg></svg>
+          </button>
+          <button class="euid-bl__btn-next" aria-label="다음버튼" title="다음버튼">
+            <svg></svg>
+          </button>
+          <div class="lecture-recommend-pagination__container">
+            <button class="play-state__btn"></button><!-- 여기 다시 생각하기 -->
+            <ul >
+              <li>
+                <button><!-- 여기 다시 생각하기 --></button>
+              </li>
+              <li>
+                <button><!-- 여기 다시 생각하기 --></button>
+              </li>
+              <li>
+                <button><!-- 여기 다시 생각하기 --></button>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
     <!-- 신봉철 3.홈-인기강좌 -->
     <div class="lecture-inform-container">
       <section class="lecture-review">
