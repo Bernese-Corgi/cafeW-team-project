@@ -9,11 +9,3 @@ legend {
   height: 1px;
   margin: -1px;
 }
-
-/* 목록 요소 기본 스타일 초기화 */
-.reset-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
