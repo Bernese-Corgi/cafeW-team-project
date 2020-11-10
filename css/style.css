@@ -2,3 +2,5 @@
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 /* reset.css */
 @import url(./reset.css);
+@import url(./default.css);
+@import url(./component.css);
