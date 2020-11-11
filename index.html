@@ -96,38 +96,51 @@
   <main class="app-main" id="content">
     <div class="notice-bar">
       <h2 class="a11y-hidden">공지사항</h2>
-      <svg></svg>
+      <span class="notice-bar__icon"></span>
       <a href="#" class="notice-bar__link"></a>
-      <time datetime="2020-11-09"></time>
+      <time datetime="2020-02-19">2020.02.19</time>
       <button class="notice-bar__btn">
         <span aria-hidden="true">×</span>
       </button>
     </div>
     <section class="beverage">
-      <h2 class="a11y-hidden">Cafe W의 추천메뉴</h2>
-      <p class="beverage__text" lang="en">
-        SPRING IS A CUP <span class="white-space"></span>of<span class="white-space"></span><em>CHOUX CREAM</em>
-      </p>
-      <p class="beverage__text">
-        봄이 왔다 커피가 설렌다
-      </p>
-      <ul class="beverage__list">
-        <li class="beverage__item">
-          <p class="beverage-item__text" lang="en">STRAWBERRY LAYER<span class="white-space"></span>CHOUX CREAM FRAPPUCCINO</p>
-          <p class="beverage-item__text">딸기 레이어 슈크림 프라푸치노</p>
-          <img src="" alt="딸기 레이어 슈크림 프라푸치노">
-        </li>
-        <li class="beverage__item">
-          <p class="beverage-item__text" lang="en">CHOUX CREAM LATTE</p>
-          <p class="beverage-item__text">슈크림 라떼</p>
-          <img src="" alt="슈 크림 라떼">
-        </li>
-        <li class="beverage__item">
-          <p class="beverage-item__text" lang="en">SPRING<span class="white-space"></span>PEACH GREEN TEA</p>
-          <p class="beverage-item__text">스프링 피치 그린티</p>
-          <img src="" alt="스프링 피치 그린 티">
-        </li>
-      </ul>
+      <div class="beverage__inner">
+        <div class="beverage__text-box">
+          <h2 class="a11y-hidden">Cafe W의 추천메뉴</h2>
+          <p class="beverage__text" lang="en">
+            SPRING IS A CUP <span class="white-space"></span><span class="text-line">of</span><span class="white-space"></span><em>CHOUX<span
+                class="white-space"></span>CREAM</em>
+          </p>
+          <p class="beverage__text">
+            봄이 왔다 커피가 설렌다
+          </p>
+          <a class="beverage__link" href="#">자세히 보기</a>
+        </div>
+        <ul class="beverage__list">
+          <li class="beverage__item1">
+            <div class="beverage-item__text-box text-box1">
+              <p class="beverage-item__text" lang="en">STRAWBERRY LAYER<span class="white-space"></span>CHOUX CREAM
+                FRAPPUCCINO</p>
+              <p class="beverage-item__text">딸기 레이어 슈크림 프라푸치노</p>
+            </div>
+            <img src="./images/beverage1-strawberry.png" alt="딸기 레이어 슈크림 프라푸치노">
+          </li>
+          <li class="beverage__item2">
+            <div class="beverage-item__text-box text-box2">
+              <p class="beverage-item__text" lang="en">CHOUX CREAM LATTE</p>
+              <p class="beverage-item__text">슈크림 라떼</p>
+            </div>
+            <img src="./images/beverage2.png" alt="슈 크림 라떼">
+          </li>
+          <li class="beverage__item3">
+            <div class="beverage-item__text-box text-box3">
+              <p class="beverage-item__text" lang="en">SPRING<span class="white-space"></span>PEACH GREEN TEA</p>
+              <p class="beverage-item__text">스프링 피치 그린티</p>
+            </div>
+            <img src="./images/beverage3.png" alt="스프링 피치 그린 티">
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- 이효형 2.홈-강좌 -->
@@ -358,48 +371,55 @@
       </section>
       <!-- 신봉철 3.홈-인기강좌 -->
       <div class="lecture-inform__container">
-        <section class="lecture-review">
-          <h2 class="a11y-hidden">강좌 리뷰</h2>
-          <h3 class="lecture-review__headline">무엇이 중요한지 알게된 시간!</h3>
-          <p class="lecture-review__text">
-            제가 들었던 해외 튜토리얼에 비해 시맨틱한 마크업과 접근성 비중이 크게 다뤄져 좋았습니다. 많은 튜토리얼들이 디자인을 어떻게 구현하는지에만 초점이 맞춰져 있잖아요. 무엇이 중요한지 알게되어 많은
-            도음이 되었습니다.
-          </p>
-          <p class="lecture-review-rating">
-            <span class="lecture-review-rating__star" aria-hidden="true">★★★★★</span>
-            <span class="lecture-review-rating__score" aria-label="평점">5점</span>
-          </p>
-          <span class="lecture-review__reviewer" aria-label="작성자">우정민</span>
-          <button type="button" class="lecture-review__play-state">
-            <svg></svg>
-          </button>
-        </section>
-        <div class="lecture-popular__container">
-          <section class="lecture-popular">
-            <h3 class="lecture-popular__headline" id="popularHeadline">
-              카페 W 인기 강좌
-            </h3>
-            <ol class="lecture-popular__list">
-              <li class="lecture-popular__item"><a href="#">UI 구조 &amp; 디자인</a><svg class="up" aria-label="상승"></svg>
-              </li>
-              <li class="lecture-popular__item"><a href="#">모바일 웹 UI 제작 실습</a><svg class="new" aria-label="급상승"></svg>
-              </li>
-              <li class="lecture-popular__item"><a href="#">UI 인터랙션 주니어</a><svg class="down" aria-label="하락"></svg></li>
-              <li class="lecture-popular__item"><a href="#">React 프로그래밍</a><svg class="no-change"
-                  aria-label="변동없음"></svg></li>
-            </ol>
-            <a href="#" class="lecture-popular__more" title="인기강좌 더보기" aria-labelledby="popularHeadline"
-              aria-hidden="true">+</a>
-          </section>
-          <section class="lecture-brochure">
-            <a href="#" class="lecture-brochure__download" download>
-              <h3 class="lecture-brochure__headline">
-                브로슈어 다운받기
-              </h3>
-              <img src="./images/" alt="Cafe W 브로슈어">
+        <div class="lecture-inform__inner">
+          <section class="lecture-review">
+            <h2 class="a11y-hidden">강좌 리뷰</h2>
+            <div class="lecture-review__text-box">
+              <h3 class="lecture-review__headline">무엇이 중요한지 알게된 시간!</h3>
+              <p class="lecture-review__text">
+                제가 들었던 해외 튜토리얼에 비해 시맨틱한 마크업과 접근성 비중이 크게 다뤄져 좋았습니다. 많은 튜토리얼들이 디자인을 어떻게 구현하는지에만 초점이 맞춰져 있잖아요. 무엇이 중요한지
+                알게되어
+                많은
+                도음이 되었습니다.
+              </p>
+              <p class="lecture-review-rating">
+                <span class="lecture-review-rating__star" aria-hidden="true">★★★★★</span>
+                <span class="lecture-review-rating__score" aria-label="평점">5점</span>
+              </p>
+              <span class="lecture-review__reviewer" aria-label="작성자">우정민</span>
+            </div>
+            <button type="button" class="lecture-review__play-state">
               <svg></svg>
-            </a>
+            </button>
           </section>
+          <div class="lecture-popular__container">
+            <section class="lecture-popular">
+              <h3 class="lecture-popular__headline" id="popularHeadline">
+                카페 W 인기 강좌
+              </h3>
+              <ol class="lecture-popular__list">
+                <li class="lecture-popular__item"><a href="#">UI 구조 &amp; 디자인</a><svg class="up" aria-label="상승"></svg>
+                </li>
+                <li class="lecture-popular__item"><a href="#">모바일 웹 UI 제작 실습</a><svg class="new" aria-label="급상승"></svg>
+                </li>
+                <li class="lecture-popular__item"><a href="#">UI 인터랙션 주니어</a><svg class="down" aria-label="하락"></svg>
+                </li>
+                <li class="lecture-popular__item"><a href="#">React 프로그래밍</a><svg class="no-change"
+                    aria-label="변동없음"></svg></li>
+              </ol>
+              <a href="#" class="lecture-popular__more" title="인기강좌 더보기" aria-labelledby="popularHeadline"
+                aria-hidden="true">+</a>
+            </section>
+            <section class="lecture-brochure">
+              <a href="#" class="lecture-brochure__download" download>
+                <h3 class="lecture-brochure__headline">
+                  브로슈어 다운받기
+                </h3>
+                <img src="./images/" alt="Cafe W 브로슈어">
+                <svg></svg>
+              </a>
+            </section>
+          </div>
         </div>
       </div>
     </section>
