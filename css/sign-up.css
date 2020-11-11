@@ -101,7 +101,7 @@
 .sign-up__form input {
   /* 입력 전 스타일, 기본 */
   /* display: inline-block; */
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid var(--theme-gold);
   border-radius: 3px;
   border-color: rgba(125, 111, 93, 0.5);
@@ -109,10 +109,22 @@
   margin-top: 10px;
 }
 
-/* .sign-up-id input,
-.sign-up-pw input,
-.sign-up-pw-confirm input,
-.sign-up- input, */
+/* 
+.sign-up-id__container,
+.sign-up-pw__container,
+.sign-up-pw-confirm__container,
+.sign-up-tel__container {
+  display: flex;
+  flex-flow: column;
+
+} */
+
+.sign-up-id__container input,
+.sign-up-pw__container input,
+.sign-up-pw-confirm__container input,
+.sign-up-tel__container input {
+  width: 100%;
+}
 
 
 .sign-up-birth__container select {
