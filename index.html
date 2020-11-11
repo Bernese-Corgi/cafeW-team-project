@@ -16,28 +16,32 @@
 <body>
   <!-- 스킵 내비게이션 -->
   <div class="skip-nav">
-    <a href="#" class="skip-nav__link">본문 바로가기</a>
+    <a href="#content" class="skip-nav__link">본문 바로가기</a>
   </div>
 
   <!-- 헤더 -->
   <header class="app-header">
-    <h1 class="header-logo">
-      <a href="#"><img src="" alt="Cafe W"></a>
-    </h1>
-    <ul class="member__list">
-      <li class="member__item"><a href="#">Sign In</a></li>
-      <li class="member__item"><a href="#">Sign Up</a></li>
-    </ul>
-    <form action="#" method="POST" class="search-form">
-      <fieldset>
-        <legend>검색</legend>
-        <label class="a11y-hidden" for="searchBar">검색 입력 칸</label>
-        <input type="search" id="searchBar" class="search-form__input">
-        <button class="search-form__btn">
-          <svg></svg>
-        </button>
-      </fieldset>
-    </form>
+    <div class="app-header__inner">
+      <h1 class="header-logo">
+        <a href="#"><img src="./images/header-logo--white.png" alt="Cafe W"></a>
+      </h1>
+      <ul class="member__list">
+        <li class="member__item"><a href="#">Sign In</a></li>
+        <li class="member__item"><a href="#">Sign Up</a></li>
+      </ul>
+      <form action="#" method="POST" class="search-form">
+        <fieldset>
+          <div class="search-form__container">
+            <legend>검색</legend>
+            <label class="a11y-hidden" for="searchBar">검색 입력 칸</label>
+            <input type="search" id="searchBar" class="search-form__input">
+            <button class="search-form__btn">
+              <svg></svg>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </header>
 
   <!-- 내비게이션 -->
@@ -89,7 +93,7 @@
   </nav>
 
   <!-- 메인 -->
-  <main class="app-main">
+  <main class="app-main" id="content">
     <div class="notice-bar">
       <h2 class="a11y-hidden">공지사항</h2>
       <svg></svg>
