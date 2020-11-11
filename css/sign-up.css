@@ -48,4 +48,18 @@
 
 .sign-up__form {
   /* background: skyblue; */
+  width: 438px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sign-up__form label {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sign-up__form label::after {
+  content: '*';
+  color: var(--theme-terra);
 }
