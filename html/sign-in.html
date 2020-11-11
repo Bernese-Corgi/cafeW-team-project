@@ -43,6 +43,54 @@
       </form>
     </div>
   </header>
+
+  <!-- 내비게이션 -->
+  <nav class="app-nav">
+    <h2 class="a11y-hidden">메인 메뉴</h2>
+    <!--최진영: 1. nav -->
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link">Drinks</a>
+        <ul class="nav-submenu__list">
+          <li class="nav-submenu__item"><a href="#">콜드 브루</a></li>
+          <li class="nav-submenu__item"><a href="#">에스프레소</a></li>
+          <li class="nav-submenu__item"><a href="#">기타 제조 음료</a></li>
+        </ul>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Foods</a>
+        <ul class="nav-submenu__list">
+          <li class="nav-submenu__item"><a href="#">베이커리</a></li>
+          <li class="nav-submenu__item"><a href="#">케잌</a></li>
+          <li class="nav-submenu__item"><a href="#">샌드위치 &amp; 샐러드</a></li>
+        </ul>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Products</a>
+        <ul class="nav-submenu__list">
+          <li class="nav-submenu__item"><a href="#">머그</a></li>
+          <li class="nav-submenu__item"><a href="#">텀블러</a></li>
+          <li class="nav-submenu__item"><a href="#">커피용품</a></li>
+        </ul>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Lectures</a>
+        <ul class="nav-submenu__list">
+          <li class="nav-submenu__item"><a href="#">UI 구조 &amp; 디자인</a></li>
+          <li class="nav-submenu__item"><a href="#">UI 인터렉션 주니어</a></li>
+          <li class="nav-submenu__item"><a href="#">리엑트 프로그래밍</a></li>
+        </ul>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Customer Service</a>
+        <ul class="nav-submenu__list">
+          <li class="nav-submenu__item"><a href="#">공지사항</a></li>
+          <li class="nav-submenu__item"><a href="#">추천 채널</a></li>
+          <li class="nav-submenu__item"><a href="#">체크 리스트</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
   <!-- 로그인 -->
   <main class="app-main" id="content">
     <section class="sign-in">
@@ -97,33 +145,33 @@
   <footer class="app-footer">
     <div class="app-footer__container">
       <div class="footer-logo">
-        <img src="#" alt="Cafe W 로고 이미지">
+        <img src="./images/footer-logo--gray.png" alt="Cafe W 로고 이미지">
       </div>
       <ul class="guide__list">
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">개인정보 처리방침</a>
         </li>
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">멤버스 이용약관</a>
         </li>
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">가맹 안내</a>
         </li>
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">대량 쿠폰판매</a>
         </li>
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">채용 안내</a>
         </li>
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">고객의 소리</a>
         </li>
-        <li class="guide__list">
+        <li class="guide__item">
           <a href="#">사이트맵</a>
         </li>
       </ul>
 
-      <address>
+      <address class="address">
         <span>서울시 강남구 테헤란로 10길 18 K&I 타워 카페 W (2F)</span>
         <span class="divider" aria-hidden="true">|</span>
         <span>연락처 : 02-6951-2121</span><span class="white-space"></span>
@@ -134,7 +182,7 @@
         <span>대표이사 : 김데레사</span>
       </address>
 
-      <small class="copyright">&copy; 2020 CAFE W COMPANY. ALL rights reserved.</small>
+      <small class="copyright">&copy; 2020 CAFE W COMPANY. ALL RIGHTS RESERVED.</small>
     </div>
   </footer>
   <button class="goto-top" type="button">
