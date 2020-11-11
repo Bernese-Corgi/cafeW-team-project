@@ -388,8 +388,8 @@
               </p>
               <span class="lecture-review__reviewer" aria-label="작성자">우정민</span>
             </div>
-            <button type="button" class="lecture-review__play-state">
-              <svg></svg>
+            <button type="button" class="lecture-review__btn">
+              <svg><use href="./images/sprite-sheet.svg#play-button"></svg>
             </button>
           </section>
           <div class="lecture-popular__container">
@@ -398,25 +398,25 @@
                 카페 W 인기 강좌
               </h3>
               <ol class="lecture-popular__list">
-                <li class="lecture-popular__item"><a href="#">UI 구조 &amp; 디자인</a><svg class="up" aria-label="상승"></svg>
+                <li class="lecture-popular__item"><a href="#">UI 구조 &amp; 디자인</a><em class="up" aria-label="상승"></em>
                 </li>
-                <li class="lecture-popular__item"><a href="#">모바일 웹 UI 제작 실습</a><svg class="new" aria-label="급상승"></svg>
+                <li class="lecture-popular__item"><a href="#">모바일 웹 UI 제작 실습</a><em class="new" aria-label="급상승"></em>
                 </li>
-                <li class="lecture-popular__item"><a href="#">UI 인터랙션 주니어</a><svg class="down" aria-label="하락"></svg>
+                <li class="lecture-popular__item"><a href="#">UI 인터랙션 주니어</a><em class="down" aria-label="하락"></em>
                 </li>
-                <li class="lecture-popular__item"><a href="#">React 프로그래밍</a><svg class="no-change"
-                    aria-label="변동없음"></svg></li>
+                <li class="lecture-popular__item"><a href="#">React 프로그래밍</a><em class="no-change"
+                  aria-label="변동없음"></em></li>
               </ol>
               <a href="#" class="lecture-popular__more" title="인기강좌 더보기" aria-labelledby="popularHeadline"
-                aria-hidden="true">+</a>
+                aria-hidden="true"></a>
             </section>
             <section class="lecture-brochure">
               <a href="#" class="lecture-brochure__download" download>
                 <h3 class="lecture-brochure__headline">
-                  브로슈어 다운받기
+                  브로슈어<span class="white-space"></span>다운받기
                 </h3>
-                <img src="./images/" alt="Cafe W 브로슈어">
-                <svg></svg>
+                <img src="./css/images/lecture-brochure.png" alt="Cafe W 브로슈어">
+                <svg><use href="./images/sprite-sheet.svg#up-arrow-button"></svg>
               </a>
             </section>
           </div>
@@ -464,10 +464,12 @@
     </section>
     <!-- 최진영 7. 홈-랩 -->
     <section class="lab">
-      <h2 class="lab__headline">CAFE W<em>COFFEE LAB</em></h2>
-      <p class="lab__text">
-        최고의 커피를 향한 끊임없는 노력, <em>카페 W 커피연구소</em>
-      </p>
+      <div class="lab__text-box">
+        <h2 class="lab__headline">CAFE W <em>COFFEE LAB</em></h2>
+        <p class="lab__text">
+          최고의 커피를 향한 끊임없는 노력, <em>카페 W 커피연구소</em>
+        </p>
+      </div>
       <ul class="lab__list">
         <li class="lab__item"><a href="#">LAB MENU</a></li>
         <li class="lab__item"><a href="#">LAB BARISTA</a></li>
