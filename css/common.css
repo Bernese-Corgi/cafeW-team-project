@@ -1,0 +1,7 @@
+/* 전체 화면 넓이 */
+.app-header,
+.app-nav,
+.app-main,
+.app-footer {
+  min-width: 1440px;
+}
