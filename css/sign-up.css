@@ -1,0 +1,42 @@
+.sign-up {
+  width: 762px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--theme-gold);
+}
+
+.sign-up__inner {
+  background: gold;
+  padding-top: 25px;
+  padding-right: auto;
+  padding-left: auto;
+  border: 1px solid #CBC5BE;
+  border-radius: 3px;
+}
+
+
+.sign-up__headline {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.32rem;
+  text-align: center;
+}
+
+.sign-up__text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.sign-up__text::after {
+  margin-top: 25px;
+  content: '';
+  display: block;
+  border-top: 1px solid #CBC5BE;
+}
+
+.sign-up__form {
+  /* background: skyblue; */
+}
