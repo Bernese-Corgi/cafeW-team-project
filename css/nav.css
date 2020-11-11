@@ -3,12 +3,19 @@
   color: var(--theme-white);
   display: flex;
   flex-flow: row nowrap;
-  padding: 47px 0 47px 120px;
+}
+
+
+.app-nav__inner {
+  background: tomato;
+  width: 1211px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav__list {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
 
 }
 
@@ -17,8 +24,7 @@
   margin-right: 64px;
 }
 
-.nav-submenu__list {
-}
+/* .nav-submenu__list {} */
 
 .nav__link {
   font-size: 2rem;
@@ -32,6 +38,6 @@
 }
 
 .nav-submenu__item a {
-  display: block;
+  display: inline-block;
   margin-bottom: 5px;
 }
