@@ -12,20 +12,21 @@
 
 .reserve-inner {
     position: absolute;
+    width: 345px;
     top: 90px;
     bottom: 350px;
     left: 224px;
     right: 1015px;
 }
 .reserve__headline {
-    font-size: ;
+    font-size: 2rem;
     font-weight: 700;
     font-size: 1.8rem
 }
 .reserve__text[lang="en"] {
     margin-bottom: 20px;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 26px
 }
 .reserve__text {
 }
