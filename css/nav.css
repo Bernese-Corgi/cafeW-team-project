@@ -1,0 +1,37 @@
+.app-nav {
+  background: var(--theme-black);
+  color: var(--theme-white);
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 47px 0 47px 120px;
+}
+
+.nav__list {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.nav__item {
+  width: 180px;
+  margin-right: 64px;
+}
+
+.nav-submenu__list {
+}
+
+.nav__link {
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 17px;
+}
+
+.nav-submenu__item {
+  font-size: 1.5rem;
+}
+
+.nav-submenu__item a {
+  display: block;
+  margin-bottom: 5px;
+}

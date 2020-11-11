@@ -1,0 +1,18 @@
+:root {
+  /* 피그마시안 - white */
+  --theme-white: #FFFCF9;
+  /* 피그마시안 - lightgray */
+  --theme-gray: #CFCCC7;
+  /* 피그마시안 - black */
+  --theme-black: #282725;
+  /* 피그마시안 - Terra Cotta */
+  --theme-terra: #E27762;
+  /* 피그마시안 - Don Juan */
+  --theme-don: #5F4C4C;
+  /* 피그마시안 - Deep Oak */
+  --theme-oak: #412311;
+  /* 피그마시안 - Pale Brown */
+  --theme-brown: #A37356;
+  /* 피그마시안 - Gold */
+  --theme-gold: #7D6F5D;
+}
