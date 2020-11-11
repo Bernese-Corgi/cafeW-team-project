@@ -7,7 +7,7 @@
 }
 
 .sign-up__inner {
-  background: gold;
+  background: #fff;
   padding-top: 25px;
   padding-right: auto;
   padding-left: auto;
@@ -35,6 +35,15 @@
   content: '';
   display: block;
   border-top: 1px solid #CBC5BE;
+}
+
+.sign-up__form::before {
+  content: '';
+  display: block;
+  width: 108px;
+  height: 105px;
+  background: url(./images/signup-BaristaGirl.png) no-repeat;
+  margin: 40px auto 20px auto;
 }
 
 .sign-up__form {
