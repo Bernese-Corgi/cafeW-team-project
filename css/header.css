@@ -1,0 +1,56 @@
+.app-header {
+  background-color: #282725;
+}
+.app-header__inner {
+  width: 1211px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 82px;
+}
+.header-logo {
+  order: 1;
+  width: 100px;
+  height: 40px;
+}
+.header-logo a {
+  width: 100%;
+  height: 100%;
+}
+.header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.member__list {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  color: #FFFCF9;
+}
+.member__item:first-child {
+  margin-right: 30px;
+}
+.search-form {
+  order: 2;
+}
+.search-form__container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  position: relative;
+}
+.search-form__input {
+  width: 242px;
+  height: 40px;
+}
+.search-form__btn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
