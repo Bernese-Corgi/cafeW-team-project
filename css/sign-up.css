@@ -46,6 +46,7 @@
   margin: 40px auto 20px auto;
 }
 
+/* 회원가입 폼 */
 .sign-up__form {
   /* background: skyblue; */
   width: 438px;
@@ -53,15 +54,19 @@
   margin-left: auto;
 }
 
+/* 회원가입 폼 레이블 텍스트 스타일 */
 .sign-up__form label,
-.sign-up-gender__text,
-.sign-up-birth__text {
+.sign-up-gender__text--bold,
+.sign-up-birth__text--bold,
+.sign-up-auth__text--bold {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.2;
+  margin-top: 20px;
+  display: inline-block;
 }
 
-.sign-up__form input[required]+label::after {
+.sign-up__form .required::after {
   content: '*';
   color: var(--theme-terra);
 }
@@ -75,3 +80,54 @@
 .sign-up-gender .sign-up-gender__label::after {
   content: '';
 }
+
+.sign-up-birth__text,
+.sign-up-agreement__text--star {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.sign-up-auth__text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.sign-up-agreement__text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+/* 회원가입 폼 input 스타일 */
+.sign-up__form input {
+  /* 입력 전 스타일, 기본 */
+  /* display: inline-block; */
+  width: 100%;
+  border: 1px solid var(--theme-gold);
+  border-radius: 3px;
+  border-color: rgba(125, 111, 93, 0.5);
+  padding: 9px;
+  margin-top: 10px;
+}
+
+/* .sign-up-id input,
+.sign-up-pw input,
+.sign-up-pw-confirm input,
+.sign-up- input, */
+
+
+.sign-up-birth__container select {
+  border: 1px solid var(--theme-gold);
+  border-radius: 3px;
+  border-color: rgba(125, 111, 93, 0.5);
+  padding: 9px;
+  margin-top: 10px;
+
+}
+
+.sign-up-gender__input {
+  display: inline;
+}
+
+/* .sign-up-gender {
+  display: inline;
+} */

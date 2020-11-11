@@ -132,27 +132,27 @@
                 <input aria-required="true" name="userName" type="text" id="userName" placeholder="예) 김데레사" required>
               </div>
               <div class="sign-up-gender">
-                <p class="sign-up-gender__text">성별</p>
-                <input type="radio" id="userGenderWoman" name="gender" value="여성" checked>
+                <p class="sign-up-gender__text--bold required">성별</p>
+                <input class="sign-up-gender__input" type="radio" id="userGenderWoman" name="gender" value="여성" checked>
                 <label for="userGenderWoman" class="sign-up-gender__label">여성</label>
-                <input type="radio" id="userGenderMan" name="gender" value="남성">
+                <input class="sign-up-gender__input" type="radio" id="userGenderMan" name="gender" value="남성">
                 <label for="userGenderMan" class="sign-up-gender__label">남성</label>
               </div>
             </div>
             <div class="sign-up-birth__container">
-              <p class="sign-up-birth__text">
+              <p class="sign-up-birth__text--bold required">
                 생년월일
               </p>
               <label for="birthYear" class="a11y-hidden">년도 선택창</label>
-              <select name="birthYear" id="birthYear">
+              <select name="birthYear" id="birthYear" class="sign-up-birth-year__select">
                 <option value="">년도</option>
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
               </select>
               <label for="birthMonth" class="a11y-hidden">월 선택창</label>
-              <select name="birthMonth" id="birthMonth">
+              <select name="birthMonth" id="birthMonth" class="sign-up-birth-month__select">
                 <option value="">월</option>
-                <option value="1월">1월</option>
+                <option value=" 1월">1월</option>
                 <option value="2월">2월</option>
                 <option value="3월">3월</option>
                 <option value="4월">4월</option>
@@ -166,7 +166,7 @@
                 <option value="12월">12월</option>
               </select>
               <label for="birthDay" class="a11y-hidden">일 선택창</label>
-              <select name="birthDay" id="birthDay">
+              <select name="birthDay" id="birthDay" class="sign-up-birth-day__select">
                 <option value="">일</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -200,8 +200,8 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
               </select>
-              <label for="solarLunar" class="a11y-hidden">음양력 선택창</label>
-              <select name="solarLunar" id="solarLunar">
+              <label for="solarLunar" class="a11y-hidden" class="sign-up-birth-solarlunar__select">음양력 선택창</label>
+              <select name=" solarLunar" id="solarLunar">
                 <option value="양력">양력</option>
                 <option value="음력">음력</option>
               </select>
@@ -215,18 +215,18 @@
           <fieldset>
             <legend>인증방식</legend>
             <div class="sign-up-auth__container">
-              <p class="sign-up-auth__text">인증방식</p>
+              <p class="sign-up-auth__text--bold required">인증방식</p>
               <ul class="sign-up-auth__list">
                 <li class="sign-up-auth__item">
-                  <label for="">휴대폰 인증</label>
+                  <label for="authPhone">휴대폰 인증</label>
                   <p class="sign-up-auth__text">본인 명의 휴대폰으로 인증 절차를 수행합니다.</p>
-                  <input class="sign-up-auth__btn" type="button" value="인증">
+                  <input class="sign-up-auth__btn" type="button" value="인증" id="authPhone">
                   <svg></svg>
                 </li>
                 <li class="sign-up-auth__item">
-                  <label for="">아이핀(i-PIN) 인증</label>
+                  <label for="authIPIN">아이핀(i-PIN) 인증</label>
                   <p class="sign-up-auth__text">가입한 아이핀 ID를 사용해 인증 절차를 수행합니다.</p>
-                  <input class="sign-up-auth__btn" type="button" value="인증">
+                  <input class="sign-up-auth__btn" type="button" value="인증" id="authIPIN">
                   <svg></svg>
                 </li>
               </ul>
@@ -247,7 +247,7 @@
                 및 사업 처리과정에서 수집될 수 있는 개인정보의 범위 서비스 이용기록, 접속 로그, 쿠키, 접속 IP 정보, 결제기록 * 쿠키의 경우 구체적인 운영 내역과 설정 거부 방법 등은 본
                 홈페이지 개인정보처리방침 “개인정보 자동수집 장치의 설치, 운영 및 그 거부에 관한 사항”에서 확인하실 수 있습니다.
               </p>
-              <p class="sign-up-agreement__text">★ 선택항목은 입력하지 않거나 동의하지 않아도 회원 가입이 가능합니다.</p>
+              <p class="sign-up-agreement__text--star">★ 선택항목은 입력하지 않거나 동의하지 않아도 회원 가입이 가능합니다.</p>
               <input type="checkbox" id="userAgreement" class="sign-up-agreement__input">
             </div>
           </fieldset>
