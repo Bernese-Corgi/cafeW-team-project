@@ -51,6 +51,9 @@ transform-style: preserve-3d;
     height: 66px;
     line-height: 20px;
 }
+.euid-curriculum__text em {
+    font-weight: 700;
+}
 .euid-curriculum__headline {
     margin-bottom: 20px;
     padding-bottom: 10px;
