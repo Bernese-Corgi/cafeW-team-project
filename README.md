@@ -29,4 +29,4 @@
     - git에서 commit 및 pull 사용 시 작업 코드 및 폴더 필수 확인.
 
 # 완성 페이지
-- (![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/72958778/98983206-cca09c80-2563-11eb-9c62-a13608d382cd.png))
+![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/72958778/98983206-cca09c80-2563-11eb-9c62-a13608d382cd.png)
