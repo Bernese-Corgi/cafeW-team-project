@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cafe W</title>
+  <meta name="keywords" content="Cafe W, 카페 W, 멀티 캠퍼스 추천 강좌, 이듬 블렌디드 러닝 강좌, 카페 W 브로슈어, 커피랩, UI 강좌">
+  <meta name="description" content="Cafe W의 메인 페이지 입니다. 저희는 커피뿐만 아니라 베이커리 커피용품, 그리고 웹 UI 강좌도 제공합니다.">
+
+  <title>Cafe W 로그인</title>
 
   <!-- 스타일링 -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="shortcut icon" href="" type="image/x-icon">
-
+  <link rel="icon" href="../favicon.png">
 
 </head>
 
@@ -23,11 +25,11 @@
   <header class="app-header">
     <div class="app-header__inner">
       <h1 class="header-logo">
-        <a href="#"><img src="../images/header-logo--white.png" alt="Cafe W"></a>
+        <a href="../index.html"><img src="../images/header-logo--white.png" alt="Cafe W"></a>
       </h1>
       <ul class="member__list">
-        <li class="member__item"><a href="#">Sign In</a></li>
-        <li class="member__item"><a href="#">Sign Up</a></li>
+        <li class="member__item"><a href="./sign-in.html">Sign In</a></li>
+        <li class="member__item"><a href="./sign-up.html">Sign Up</a></li>
       </ul>
       <form action="#" method="POST" class="search-form">
         <fieldset>
@@ -36,7 +38,9 @@
             <label class="a11y-hidden" for="searchBar">검색 입력 칸</label>
             <input type="search" id="searchBar" class="search-form__input">
             <button class="search-form__btn">
-              <svg></svg>
+              <svg>
+                <use href="../images/sprite-sheet.svg#search-button">
+              </svg>
             </button>
           </div>
         </fieldset>
@@ -130,21 +134,20 @@
               </ul>
             </fieldset>
           </form>
-
           <p class="sign-in-form__text">
             ★ 타 사이트와 비밀번호를 동일하게 사용할 경우 도용의 위험이 있으므로, 사용자 정보 보호를 위해 정기적인 비밀번호 변경을 요청 드립니다.
           </p>
           <p class="sign-in-form__text">
             ★ Cafe W 공식 홈페이지는 Internet Explorer 9.0 이상, Chrome, Firefox, Safari, Edge 브라우저에 최적화 되어있습니다.
           </p>
-          <ul class="sign-in__list">
-            <li class="sign-in__item"><a href="#">회원가입</a></li>
-            <span class="divider" aria-hidden="true">|</span>
-            <li class="sign-in__item"><a href="#">아이디 찾기</a></li>
-            <span class="divider" aria-hidden="true">|</span>
-            <li class="sign-in__item"><a href="#">비밀번호 찾기</a></li>
-          </ul>
         </div>
+        <ul class="sign-in__list">
+          <li class="sign-in__item"><a href="./sign-up.html" class="sign-in__link">회원가입</a></li>
+          <span class=" divider" aria-hidden="true">|</span>
+          <li class="sign-in__item"><a href="#" class="sign-in__link">아이디 찾기</a></li>
+          <span class="divider" aria-hidden="true">|</span>
+          <li class="sign-in__item"><a href="#" class="sign-in__link">비밀번호 찾기</a></li>
+        </ul>
       </div>
     </section>
   </main>
@@ -177,7 +180,6 @@
           <a href="#">사이트맵</a>
         </li>
       </ul>
-
       <address class="address">
         <span>서울시 강남구 테헤란로 10길 18 K&I 타워 카페 W (2F)</span>
         <span class="divider" aria-hidden="true">|</span>
@@ -188,13 +190,12 @@
         <span class="divider" aria-hidden="true">|</span>
         <span>대표이사 : 김데레사</span>
       </address>
-
       <small class="copyright">&copy; 2020 CAFE W COMPANY. ALL RIGHTS RESERVED.</small>
     </div>
   </footer>
-  <button class="goto-top" type="button">
-    <svg></svg>
-  </button>
+  <a class="goto-top" href="#">
+    <svg class="up-arrow-button"><use href="../images/sprite-sheet.svg#up-arrow-button"></use></svg>
+  </a>
 </body>
 
 </html>
