@@ -1,0 +1,122 @@
+.beverage {
+  background-color: #F3D6B0;
+  height: 600px;
+  position: relative;
+}
+.beverage__inner {
+  width: 1211px;
+  margin: 0 auto;
+}
+.beverage__text-box {
+  text-align: center;
+  float: left;
+  margin-top: 83px;
+}
+.beverage__text[lang="en"] {
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--theme-brown);
+  letter-spacing: 0.4rem;
+}
+.beverage__text .text-line {
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--theme-brown);
+  letter-spacing: 0.4rem;
+}
+.beverage__text .text-line::before {
+  content: "";
+  display: inline-block;
+  width: 160px;
+  height: 2px;
+  margin-bottom: 11px;
+  background: var(--theme-brown);
+}
+.beverage__text .text-line::after {
+  content: "";
+  display: inline-block;
+  width: 160px;
+  height: 2px;
+  margin-bottom: 11px;
+  background: var(--theme-brown);
+}
+.beverage__text[lang="en"] em {
+  font-size: 9rem;
+  font-weight: 700;
+  color: var(--theme-terra);
+  letter-spacing: 0.9rem;
+}
+.beverage__text {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: var(--theme-brown);
+}
+.beverage__text:nth-child(3) {
+  border-bottom: 2px solid var(--theme-brown);
+  padding-bottom: 20px; 
+}
+.beverage__link {
+  margin-top: 40px;
+  display: inline-block;
+  padding-top: 10px;
+  width: 128px;
+  height: 36px;
+  color: var(--theme-terra);
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: 2px solid var(--theme-terra);
+  border-radius: 3px;
+}
+.beverage__list {
+  text-align: center;
+}
+.beverage__list .beverage-item__text[lang="en"] {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--theme-oak);
+  letter-spacing: 0.28rem;
+  margin-bottom: 15px;
+}
+.beverage__list .beverage-item__text {
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: var(--theme-don);
+}
+.beverage__item1 img,
+.beverage__item2 img {
+  width: 283px;
+  height: 428px;
+  position: absolute;
+}
+.beverage__item3 img {
+  width: 223px;
+  height: 361px;
+  position: absolute;
+}
+.beverage-item__text-box {
+  position: absolute;
+}
+.text-box1 {
+  top: 472px;
+  left: 476px;
+}
+.beverage__item1 img {
+  top: 113px;
+  left: 481px;
+}
+.text-box2 {
+  top: 67px;
+  left: 749px;
+}
+.beverage__item2 img {
+  top: 62px;
+  left: 769px;
+}
+.text-box3 {
+  top: 187px;
+  right: 59px
+}
+.beverage__item3 img {
+  top: 242px;
+  right: 165px;
+}

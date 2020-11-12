@@ -1,0 +1,159 @@
+.lecture-inform__container {
+  height: 460px;
+  background-color: var(--theme-gold);
+}
+.lecture-inform__inner {
+  width: 1222px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 30px 0;
+}
+.lecture-review {
+  background-color: var(--theme-black);
+  width: 743px;
+  height: 400px;
+  margin-right: 20px;
+  color: var(--theme-white);
+  position: relative;
+  padding: 60px 167px 90px 91px;
+  background-image: url(./images/lecture-inform-score.png);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+}
+.lecture-review__headline {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 43px;
+}
+.lecture-review__headline::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--theme-gold);
+  margin-bottom: 30px;
+}
+.lecture-review__text {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.lecture-review-rating {
+  margin-top: 19px;
+  margin-bottom: 21px;
+}
+.lecture-review-rating__star {
+  font-size: 2.7rem;
+  margin-right: 15px;
+}
+.lecture-review-rating__score {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.lecture-review__reviewer {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.lecture-review__btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background: transparent;
+  border: 0;
+}
+.lecture-review__btn svg {
+  width: 100%;
+  height: 100%;
+}
+.lecture-popular__container {
+
+}
+.lecture-popular {
+  background-color: var(--theme-white);
+  width: 459px;
+  height: 220px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.lecture-popular__headline {
+  font-size: 2.6rem;
+  color: var(--theme-gold);
+  font-weight: 700;
+  padding-top: 30px;
+  padding-left: 24px;
+}
+.lecture-popular__list {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--theme-gold);
+  margin-top: 24px;
+  margin-left: 36px;
+}
+.lecture-popular__item {
+  counter-increment: listNumber;
+  margin-bottom: 10px;
+  position: relative;
+}
+.lecture-popular__item::before {
+  content: counter(listNumber)". ";
+}
+.lecture-popular__list em {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: 36px;
+}
+.up {
+  background: url(./images/increase.svg) no-repeat;
+}
+.new {
+  background: url(./images/new.svg) no-repeat;
+}
+.down {
+  background: url(./images/decrease.svg) no-repeat;
+}
+.no-change {
+  background: url(./images/same.svg) no-repeat;
+}
+.lecture-popular__more {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: url(./images/Plus\ button.svg) no-repeat;
+  top: 34px;
+  right: 25px;
+}
+.lecture-brochure {
+  background-color: var(--theme-terra);
+  width: 459px;
+  height: 160px;
+  position: relative;
+}
+.lecture-brochure__headline {
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 34px;
+  color: var(--theme-white);
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.lecture-brochure img {
+  width: 275px;
+  height: 203px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.lecture-brochure svg {
+  width: 66px;
+  height: 44px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 8px;
+  bottom: 13px;
+}

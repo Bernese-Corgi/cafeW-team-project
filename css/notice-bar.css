@@ -1,0 +1,33 @@
+/* 노티스바 */
+.notice-bar {
+  background: rgba(226, 119, 98, 0.9);
+  width: 600px;
+  height: 60px;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 34px;
+  left: 420px;
+  z-index: 10;
+  color: var(--theme-white);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.notice-bar__link {
+  font-size: 1.6rem;
+}
+.notice-bar time {
+  font-size: 1.4rem;
+}
+.notice-bar__btn {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0;
+}  
+.notice-bar__btn span {
+  font-size: 4rem;
+  line-height: 40px;
+  color: var(--theme-white);
+}
