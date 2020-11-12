@@ -1,8 +1,12 @@
 .lab {
   background-color: var(--theme-white);
   height: 1192px;
-  padding: 80px 120px;
   text-align: center;
+  /* position: relative; */
+}
+.lab__inner {
+  width: 1200px;
+  margin: 0 auto;
   position: relative;
 }
 .lab__text-box::after {
@@ -69,5 +73,5 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 420px;
-  right: 120px;
+  right: 0;
 }

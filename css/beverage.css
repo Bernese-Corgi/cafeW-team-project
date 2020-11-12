@@ -1,11 +1,12 @@
 .beverage {
   background-color: #F3D6B0;
   height: 600px;
-  position: relative;
+  
 }
 .beverage__inner {
   width: 1211px;
   margin: 0 auto;
+  position: relative;
 }
 .beverage__text-box {
   text-align: center;
@@ -98,25 +99,25 @@
 }
 .text-box1 {
   top: 472px;
-  left: 476px;
+  left: 357px;
 }
 .beverage__item1 img {
   top: 113px;
-  left: 481px;
+  left: 362px;
 }
 .text-box2 {
   top: 67px;
-  left: 749px;
+  left: 630px;
 }
 .beverage__item2 img {
   top: 62px;
-  left: 769px;
+  left: 650px;
 }
 .text-box3 {
   top: 187px;
-  right: 59px
+  left: 969px
 }
 .beverage__item3 img {
   top: 242px;
-  right: 165px;
+  left: 933px;
 }

@@ -19,7 +19,7 @@
 }
 .multicampus__headline {
   background-color: var(--theme-white);
-  width: 832px;
+  width: 58%;
   height: 64px;
   top: 0;
   left: 0;
@@ -38,10 +38,10 @@
 .euid-bl__headline {
   background-color: var(--theme-black);
   color: var(--theme-white);
-  width: 608px;
+  width: 42%;
   height: 64px;
   top: 0;
-  left: 832px;
+  right: 0;
   text-align: right;
   font-size: 1.6rem;
   font-weight: 700;
