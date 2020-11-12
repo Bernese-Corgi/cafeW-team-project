@@ -1,6 +1,7 @@
 .sign-up {
   width: 762px;
   margin-top: 100px;
+  margin-bottom: 100px;
   margin-right: auto;
   margin-left: auto;
   color: var(--theme-gold);
@@ -9,6 +10,7 @@
 .sign-up__inner {
   background: #fff;
   padding-top: 25px;
+  padding-bottom: 50px;
   padding-right: auto;
   padding-left: auto;
   border: 1px solid #CBC5BE;
@@ -90,6 +92,10 @@
   line-height: 1.2;
 }
 
+.sign-up-nickname__container {
+  width: 65%;
+}
+
 /* 회원가입 폼 input 스타일 */
 .sign-up__form input {
   /* 입력 전 스타일, 기본 */
@@ -105,7 +111,9 @@
 .sign-up-id__container,
 .sign-up-pw__container,
 .sign-up-pw-confirm__container,
-.sign-up-tel__container {
+.sign-up-tel__container,
+.sign-up-nickname__container,
+.sign-up-birth__container {
   display: flex;
   flex-flow: column;
   margin-top: 10px;
@@ -244,8 +252,18 @@
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
+  padding-left: 45px;
+  /* padding-right: 45px; */
+}
+
+.sign-up-auth__item:first-child {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.sign-up-auth__item:last-child {
+  padding-left: 42px;
+  padding-right: 42px;
 }
 
 .sign-up-auth__item:first-child::after {
@@ -255,6 +273,7 @@
   display: inline-block;
   background: linear-gradient(to right, rgba(125, 111, 93, 1) 0%, rgba(125, 111, 93, 1) 50%, rgba(125, 111, 93, 0) 51%, rgba(125, 111, 93, 0) 100%);
   opacity: 50%;
+  margin-left: 45px;
 }
 
 
@@ -285,10 +304,16 @@
   display: block;
   border: none;
   padding: 7px 25px;
+  margin-bottom: 10px;
   background: var(--theme-gold);
+  transition: all 0.2s;
 }
 
 /* 회원가입폼 - 선택동의사항 */
+.sign-up-agreement__container {
+  position: relative;
+}
+
 .sign-up-agreement-text__container {
   background: var(--theme-white);
   border: 1px solid var(--theme-gold);
@@ -296,6 +321,8 @@
   width: 100%;
   height: 170px;
   padding: 17px 10px 17px 17px;
+  margin-bottom: 30px;
+
 }
 
 .sign-up-agreement-text__inner {
@@ -332,4 +359,41 @@
 .sign-up-agreement__text {
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.sign-up-agreement__input {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* 회원가입폼 - 회원가입 버튼 */
+.sign-up__btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--theme-white);
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 15px 0px;
+  border-radius: 3px;
+  background: var(--theme-gold);
+  transition: all 0.2s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-up__btn:hover {
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3);
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3);
+}
+
+.sign-up-auth__list .sign-up-auth__btn:hover {
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3)
 }
