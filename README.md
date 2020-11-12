@@ -5,9 +5,9 @@
 > 2020.11.06 - 2020.11.13
 
 # 팀 구성원
-- 신봉철 (https://github.com/bcround)
-- 최진영 (https://github.com/Bernese-Corgi)
-- 이효형 (https://github.com/lhhyung91)
+- [신봉철] (https://github.com/bcround)
+- [최진영] (https://github.com/Bernese-Corgi)
+- [이효형] (https://github.com/lhhyung91)
 
 # 방향성
 - 디테일한 마크업을 방향으로 잡고, css의 디자인적인 요소를 고려하여 마크업
