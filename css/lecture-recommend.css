@@ -1,5 +1,5 @@
 .lecture-recommend {
-  height: 624px;
+  min-height: 624px;
   position: relative;
 }
 .lecture-recommend__inner {

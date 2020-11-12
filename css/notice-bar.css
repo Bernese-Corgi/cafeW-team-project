@@ -6,7 +6,8 @@
   border-radius: 100px;
   position: fixed;
   bottom: 34px;
-  left: 420px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
   color: var(--theme-white);
   display: flex;
