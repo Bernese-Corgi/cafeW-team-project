@@ -1,0 +1,399 @@
+.sign-up {
+  width: 762px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--theme-gold);
+}
+
+.sign-up__inner {
+  background: #fff;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-right: auto;
+  padding-left: auto;
+  border: 1px solid #CBC5BE;
+  border-radius: 3px;
+}
+
+
+.sign-up__headline {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.32rem;
+  text-align: center;
+}
+
+.sign-up__text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.sign-up__text::after {
+  margin-top: 25px;
+  content: '';
+  display: block;
+  border-top: 1px solid #CBC5BE;
+}
+
+.sign-up__form::before {
+  content: '';
+  display: block;
+  width: 108px;
+  height: 105px;
+  background: url(./images/signup-BaristaGirl.png) no-repeat;
+  margin: 40px auto 20px auto;
+}
+
+/* 회원가입 폼 */
+.sign-up__form {
+  /* background: skyblue; */
+  width: 440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 회원가입 폼 레이블 텍스트 스타일 */
+.sign-up__form label,
+.sign-up-gender__text--bold,
+.sign-up-birth__text--bold,
+.sign-up-auth__text--bold {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sign-up__form .required::after {
+  content: '*';
+  color: var(--theme-terra);
+}
+
+.sign-up-gender__container .sign-up-gender__label {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.sign-up-gender__container .sign-up-gender__label::after {
+  content: '';
+}
+
+.sign-up-birth__text,
+.sign-up-agreement__text--star {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.sign-up-auth__text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.sign-up-nickname__container {
+  width: 65%;
+}
+
+/* 회원가입 폼 input 스타일 */
+.sign-up__form input {
+  /* 입력 전 스타일, 기본 */
+  border-radius: 3px;
+  border: 1px solid;
+  color: var(--theme-gold);
+  border-color: rgba(125, 111, 93, 0.5);
+  padding: 9px;
+  /* margin-top: 10px; */
+}
+
+/* 회원가입 폼 정렬 및 여백 */
+.sign-up-id__container,
+.sign-up-pw__container,
+.sign-up-pw-confirm__container,
+.sign-up-tel__container,
+.sign-up-nickname__container,
+.sign-up-birth__container {
+  display: flex;
+  flex-flow: column;
+  margin-top: 10px;
+}
+
+
+.sign-up-id__container label,
+.sign-up-pw__container label,
+.sign-up-pw-confirm__container label,
+.sign-up-tel__container label,
+.sign-up-name__container label,
+.sign-up-gender__text--bold,
+.sign-up-birth__text--bold,
+.sign-up-auth__text--bold,
+.sign-up-nickname__container label,
+.sign-up-agreement__container label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.sign-up-id__container input::placeholder,
+.sign-up-pw__container input::placeholder,
+.sign-up-pw-confirm__container input::placeholder,
+.sign-up-tel__container input::placeholder,
+.sign-up-name__container input::placeholder,
+.sign-up-birth__container input::placeholder,
+.sign-up-nickname__container input::placeholder {
+  color: rgba(125, 111, 93, 0.7);
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.sign-up-id__container input:focus,
+.sign-up-pw__container input:focus,
+.sign-up-pw-confirm__container input:focus,
+.sign-up-tel__container input:focus,
+.sign-up-name__container input:focus,
+.sign-up-birth__container input:focus,
+.sign-up-nickname__container input:focus {
+  outline: 0;
+  color: var(--theme-gold);
+  border-radius: 3px;
+  border-color: var(--theme-gold);
+  padding: 9px;
+}
+
+.sign-up-name-gender__wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sign-up-gender__text--bold {
+  width: 100%;
+}
+
+.sign-up-name__container {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.sign-up-gender__container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.sign-up-gender__container .sign-up-gender__input {
+  margin-top: 0;
+
+}
+
+/* .sign-up-gender__text--bold {
+  width: 100%;
+} */
+
+
+
+.sign-up-gender__label {
+  /* background: red; */
+}
+
+.sign-up-gender__text--bold {
+  display: inline;
+}
+
+/* .sign-up-id__container input,
+.sign-up-pw__container input,
+.sign-up-pw-confirm__container input,
+.sign-up-tel__container input {
+  width: 100%;
+} */
+
+
+.sign-up-birth__container select {
+  border: 1px solid var(--theme-gold);
+  border-color: rgba(125, 111, 93, 0.5);
+  border-radius: 3px;
+  padding: 9px;
+  /* margin-top: 10px; */
+
+}
+
+/* .sign-up-gender__input {
+  display: inline;
+} */
+
+/* .sign-up-gender {
+  display: inline;
+} */
+
+
+/* 회원가입폼 - 인증방식 */
+.sign-up-auth__container {
+  /* display: flex;
+  flex-flow: column wrap;
+  align-items: center; */
+  width: 100%;
+}
+
+.sign-up-auth__list {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid rgba(125, 111, 93, 0.5);
+  border-radius: 3px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.sign-up-auth__item {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  padding-left: 45px;
+  /* padding-right: 45px; */
+}
+
+.sign-up-auth__item:first-child {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.sign-up-auth__item:last-child {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.sign-up-auth__item:first-child::after {
+  content: '';
+  width: 1px;
+  height: 100%;
+  display: inline-block;
+  background: linear-gradient(to right, rgba(125, 111, 93, 1) 0%, rgba(125, 111, 93, 1) 50%, rgba(125, 111, 93, 0) 51%, rgba(125, 111, 93, 0) 100%);
+  opacity: 50%;
+  margin-left: 45px;
+}
+
+
+.sign-up-auth__text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-top: 6px;
+  margin-bottom: 9px;
+}
+
+.sign-up-auth__img--phone {
+  width: 30px;
+  opacity: 70%;
+}
+
+.sign-up-auth__img--desktop {
+  width: 100px;
+  opacity: 70%;
+}
+
+
+.sign-up-auth__list .sign-up-auth__btn {
+  /* 선택자 구체성문제 예시 - padding */
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--theme-white);
+  width: auto;
+  display: block;
+  border: none;
+  padding: 7px 25px;
+  margin-bottom: 10px;
+  background: var(--theme-gold);
+  transition: all 0.2s;
+}
+
+/* 회원가입폼 - 선택동의사항 */
+.sign-up-agreement__container {
+  position: relative;
+}
+
+.sign-up-agreement-text__container {
+  background: var(--theme-white);
+  border: 1px solid var(--theme-gold);
+  border-radius: 3px;
+  width: 100%;
+  height: 170px;
+  padding: 17px 10px 17px 17px;
+  margin-bottom: 30px;
+
+}
+
+.sign-up-agreement-text__inner {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  overflow-y: scroll;
+}
+
+.sign-up-agreement-text__inner::-webkit-scrollbar {
+  width: 4px;
+  background-clip: content-box;
+  height: 130px;
+  background: rgba(125, 111, 93, 0.3);
+  border-radius: 2px;
+}
+
+.sign-up-agreement-text__inner::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 60px;
+  /* background: var(--theme-gold); */
+  /* background: red; */
+  background: rgba(125, 111, 93, 0.6);
+  border-radius: 2px;
+}
+
+.sign-up-agreement__inner::-webkit-scrollbar-track {
+  /* width: 4px;
+  height: 130px;
+  background: rgba(125, 111, 93, 0.3);
+  border-radius: 2px; */
+}
+
+.sign-up-agreement__text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.sign-up-agreement__input {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* 회원가입폼 - 회원가입 버튼 */
+.sign-up__btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--theme-white);
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 15px 0px;
+  border-radius: 3px;
+  background: var(--theme-gold);
+  transition: all 0.2s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-up__btn:hover {
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3);
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3);
+}
+
+.sign-up-auth__list .sign-up-auth__btn:hover {
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3)
+}
