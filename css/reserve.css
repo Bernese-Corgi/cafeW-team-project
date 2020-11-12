@@ -1,0 +1,51 @@
+.reserve {
+    background: radial-gradient( #170F04, #3C1D0A);
+    background-image: url(./images/Reserve-back.png);
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 458px;
+    color: #A37356;
+    letter-spacing: 2px;
+}
+.reserve__inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.reserve__text-box {
+    position: absolute;
+    width: 345px;
+    top: 90px;
+    left: 104px;
+}
+.reserve__headline {
+    font-size: 2rem;
+    font-weight: 700;
+    font-size: 1.8rem
+}
+.reserve__text[lang="en"] {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 26px
+}
+.reserve__text {
+}
+.reserve__link {
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid;
+    border-radius: 3px;
+    display: inline-block;
+    width: 113px;
+    height: 36px;
+    margin-top: 20px;
+    letter-spacing: 0;
+}
+.reserve__Wstar-icon--origin {
+    position: absolute;
+    width: 70px;
+    height: 95px;
+    top: 124px;
+    left: 0;
+}

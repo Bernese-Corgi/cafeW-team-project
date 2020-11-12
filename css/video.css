@@ -1,0 +1,24 @@
+.youtube {
+    background-color: #282725;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 85px;
+}
+.youtube-wrapper iframe{
+    width: 960px;
+    height: 540px;   
+}
+.youtube__Wstar-icon--dark {
+    order: -1;
+    width: 70px;
+    height: 95px;
+    opacity: 0.3;
+}
+.youtube :nth-child(3) {
+    order: 1;
+}
+
+
