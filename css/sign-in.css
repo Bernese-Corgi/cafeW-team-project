@@ -138,3 +138,26 @@
 }
 
 .sign-in-form__text:first-child {}
+
+/* 로그인 - 하단 */
+.sign-in__list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sign-in__list .divider {
+  opacity: 30%;
+}
+
+.sign-in__item {
+  font-size: 1.6rem;
+  font-weight: 700;
+  opacity: 70%;
+  padding: 15px 8px;
+
+}
+
+.sign-in__link {
+  display: inline-block;
+  margin: 8px;
+}
