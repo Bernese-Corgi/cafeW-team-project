@@ -1,5 +1,5 @@
 /* 이효형 foote.css*/
-.app-footer {
+/* .app-footer {
     text-align: center;
 
 }
@@ -21,10 +21,10 @@
     width: 100%;
     order: -1;
     border-bottom: 1px solid rgba(255, 252, 249, 0.2);
-}
-.guide__item {
+} */
+/* .guide__item { */
     /* background-color: yellow; */
-    color: rgba(255, 252, 249, 0.6);
+    /* color: rgba(255, 252, 249, 0.6);
     padding: 30px 0;
     font-weight: 700; 
     display: block;  
@@ -52,4 +52,4 @@
     padding-top: 15px;
     padding-bottom: 60px;
     font-weight: 700;
-}
+} */

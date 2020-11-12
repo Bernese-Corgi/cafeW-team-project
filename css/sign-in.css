@@ -1,0 +1,140 @@
+.sign-in {
+  width: 762px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--theme-gold);
+}
+
+.sign-in__inner {
+  background: #fff;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-right: auto;
+  padding-left: auto;
+  border: 1px solid #CBC5BE;
+  border-radius: 3px;
+}
+
+
+.sign-in__headline {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.32rem;
+  text-align: center;
+}
+
+.sign-in__text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.sign-in__text::after {
+  margin-top: 25px;
+  content: '';
+  display: block;
+  border-top: 1px solid #CBC5BE;
+}
+
+/* 로그인 폼 */
+.sign-in-form__container {
+  width: 440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 회원가입 폼 레이블 텍스트 스타일 */
+.sign-in-id__container,
+.sign-in-pw__container {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sign-in-id__container label,
+.sign-in-pw__container label {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.sign-in-save__input,
+.sign-in-save__input {
+  font-size: 1.4rem;
+}
+
+.sign-in-id__container,
+.sign-in-pw__container {
+  display: flex;
+  flex-flow: column;
+  margin-top: 10px;
+}
+
+/* 로그인폼 - 입력창 스타일 */
+.sign-in-id__container input,
+.sign-in-pw__container input {
+  /* 입력 전 스타일, 기본 */
+  border-radius: 3px;
+  border: 1px solid;
+  color: var(--theme-gold);
+  border-color: rgba(125, 111, 93, 0.5);
+  padding: 9px;
+}
+
+.sign-in-id__container input::placeholder,
+.sign-in-pw__container input::placeholder {
+  color: rgba(125, 111, 93, 0.7);
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+/* 로그인폼 - save */
+.sign-in-save__list {
+  column-count: 2;
+
+}
+
+/* 로그인 버튼 */
+.sign-in__btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--theme-white);
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 15px 0px;
+  border-radius: 3px;
+  background: var(--theme-gold);
+  transition: all 0.2s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-in-id__container input:focus,
+.sign-in-pw__container input:focus {
+  outline: 0;
+  color: var(--theme-gold);
+  border-radius: 3px;
+  border-color: var(--theme-gold);
+  padding: 9px;
+}
+
+.sign-in__btn:hover {
+  cursor: pointer;
+  background: var(--theme-black);
+  box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3)
+}
+
+/* 로그인폼 - 별표 설명 텍스트 */
+.sign-in-form__text {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.sign-in-form__text:first-child {}

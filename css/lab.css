@@ -1,0 +1,77 @@
+.lab {
+  background-color: var(--theme-white);
+  height: 1192px;
+  text-align: center;
+  /* position: relative; */
+}
+.lab__inner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.lab__text-box::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  background: var(--theme-gold);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+}
+.lab__headline {
+  font-size: 4.6rem;
+  letter-spacing: 0.23rem;
+  font-weight: 300;
+  line-height: 64px;
+}
+.lab__headline em {
+  font-weight: 700;
+}
+.lab__text {
+  font-size: 1.8rem;
+  letter-spacing: 0.18rem;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.lab__text em {
+  font-weight: 700;
+}
+.lab__list {
+  font-size: 3.2rem;
+  color: var(--theme-white);
+  font-weight: 700;
+}
+.lab__list a {
+  display: block;
+  width: 692px;
+  height: 692px;
+  position: absolute;
+  transition: all 0.4s;
+}
+.lab__list a:hover {
+  background-size: 105% 105%;
+}
+.lab__item a::after {
+  content: "";
+  display: block;
+  height: 10px;
+  background: var(--theme-white);
+  margin-top: 30px;
+}
+.item1 a {
+  padding: 497px 253px 150px;
+  background-image: url(./images/lab-menu.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 55px;
+  z-index: 5;
+}
+.item2 a {
+  padding: 497px 228px 150px;
+  background-image: url(./images/lab-barista.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 420px;
+  right: 0;
+}

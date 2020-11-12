@@ -6,17 +6,18 @@
     background-size: 100% 100%;
     height: 458px;
     color: #A37356;
-    position: relative;
     letter-spacing: 2px;
 }
-
-.reserve-inner {
+.reserve__inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.reserve__text-box {
     position: absolute;
     width: 345px;
     top: 90px;
-    bottom: 350px;
-    left: 224px;
-    right: 1015px;
+    left: 104px;
 }
 .reserve__headline {
     font-size: 2rem;
@@ -46,7 +47,5 @@
     width: 70px;
     height: 95px;
     top: 124px;
-    bottom: 239px;
-    left: 120px;
-    right: 1250px;
+    left: 0;
 }
