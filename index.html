@@ -32,7 +32,7 @@
             <legend>검색</legend>
             <label class="a11y-hidden" for="searchBar">검색 입력 칸</label>
             <input type="search" id="searchBar" class="search-form__input">
-            <button class="search-form__btn">
+            <button class="search-form__btn" aria-label="검색">
               <svg>
                 <use href="./images/sprite-sheet.svg#search-button"/>
               </svg>
@@ -103,7 +103,7 @@
       </svg>
       <a href="#" class="notice-bar__link">카페 W 영업시간 조정 안내</a>
       <time datetime="2020-02-19">2020.02.19</time>
-      <button class="notice-bar__btn">
+      <button class="notice-bar__btn" aria-label="닫기">
         <span aria-hidden="true">×</span>
       </button>
     </div>
@@ -196,7 +196,7 @@
                       <td colspan="3">입문자를 위한 GIT과 HTML&amp;CSS HTML&amp;CSS 웹사이트 개발과 디자인 기초 (35,000원)</td>
                     </tr>
                   </table>
-                  <button class="multicampus-detail__btn is-close-panel">
+                  <button class="multicampus-detail__btn is-close-panel" aria-label="닫기">
                     <span aria-hidden="true">×</span>
                   </button>
                 </div>
@@ -256,20 +256,20 @@
               </svg>
             </button>
             <div class="multicampus-pagination__container">
-              <button class="play-state__btn">
+              <button class="play-state__btn" aria-label="재생정지버튼">
                 <svg>
                   <use href="./images/sprite-sheet.svg#pause-button"/>
                 </svg>
               </button>
               <ul class="pagination__list">
                 <li class="pagination__item">
-                  <a role="button" href="#" class="pagination__btn"></a>
+                  <a role="button" href="#" class="pagination__btn" aria-label="첫페이지"></a>
                 </li>
                 <li class="pagination__item">
-                  <a role="button" href="#" class="pagination__btn"></a>
+                  <a role="button" href="#" class="pagination__btn" aria-label="두번째 페이지"></a>
                 </li>
                 <li class="pagination__item">
-                  <a role="button" href="#" class="pagination__btn"></a>
+                  <a role="button" href="#" class="pagination__btn" aria-label="세번째 페이지"></a>
                 </li>
               </ul>
             </div>
@@ -459,7 +459,7 @@
               </p>
               <span class="lecture-review__reviewer" aria-label="작성자">우정민</span>
             </div>
-            <button type="button" class="lecture-review__btn">
+            <button type="button" class="lecture-review__btn" aria-label="재생정지버튼">
               <svg>
                 <use href="./images/sprite-sheet.svg#play-button"/>
               </svg>
@@ -639,7 +639,7 @@
       <small class="copyright">&copy; 2020 CAFE W COMPANY. ALL RIGHTS RESERVED.</small>
     </div>
   </footer>
-  <a class="goto-top" href="#">
+  <a class="goto-top" href="#" role="button" aria-label="맨위로 올라가기 버튼">
     <svg class="up-arrow-button"><use href="./images/sprite-sheet.svg#up-arrow-button"></use></svg>
   </a>
 </body>
