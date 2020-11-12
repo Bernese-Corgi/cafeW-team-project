@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="favicon.png">
 </head>
+
 <body>
   <!-- 스킵 내비게이션 -->
   <div class="skip-nav">
@@ -34,7 +36,7 @@
             <input type="search" id="searchBar" class="search-form__input">
             <button class="search-form__btn">
               <svg>
-                <use href="./images/sprite-sheet.svg#search-button"/>
+                <use href="./images/sprite-sheet.svg#search-button" />
               </svg>
             </button>
           </div>
@@ -155,7 +157,7 @@
             <h3 class="multicampus__headline tab">
               <a href="#" role="button">멀티 캠퍼스 추천 강좌</a>
               <svg class="multicampus__headline-arrow">
-                <use href="./images/sprite-sheet.svg#down-button-dark"/>
+                <use href="./images/sprite-sheet.svg#down-button-dark" />
               </svg>
             </h3>
             <ul class="multicampus__list">
@@ -245,20 +247,20 @@
                 </div>
               </li>
             </ul>
-            <button class="multicampus__btn-prev" aria-label="이전버튼" title="이전버튼">
+            <button class="multicampus__btn-prev .left" aria-label="이전버튼" title="이전버튼">
               <svg>
-                <use href="./images/sprite-sheet.svg#prev-button"/>
+                <use href="./images/sprite-sheet.svg#arrow-button" />
               </svg>
             </button>
-            <button class="multicampus__btn-next" aria-label="다음버튼" title="다음버튼">
+            <button class="multicampus__btn-next .right" aria-label="다음버튼" title="다음버튼">
               <svg>
-                <use href="./images/sprite-sheet.svg#next-button"/>
+                <use href="./images/sprite-sheet.svg#arrow-button" />
               </svg>
             </button>
             <div class="multicampus-pagination__container">
               <button class="play-state__btn">
                 <svg>
-                  <use href="./images/sprite-sheet.svg#pause-button"/>
+                  <use href="./images/sprite-sheet.svg#pause-button" />
                 </svg>
               </button>
               <ul class="pagination__list">
@@ -278,7 +280,7 @@
             <h3 class="euid-bl__headline tab">
               <a href="#" role="button">이듬 블렌디드 러닝 추천 강좌</a>
               <svg class="euid-bl__headline-arrow">
-                <use href="./images/sprite-sheet.svg#down-button"/>
+                <use href="./images/sprite-sheet.svg#down-button" />
               </svg>
             </h3>
             <ul class="euid-bl__list">
@@ -411,18 +413,18 @@
             </ul>
             <button class="euid-bl__btn-prev" aria-label="이전버튼" title="이전버튼">
               <svg>
-                <use href="./images/sprite-sheet.svg#prev-button"/>
+                <use href="./images/sprite-sheet.svg#prev-button" />
               </svg>
             </button>
             <button class="euid-bl__btn-next" aria-label="다음버튼" title="다음버튼">
               <svg>
-                <use href="./images/sprite-sheet.svg#next-button"/>
+                <use href="./images/sprite-sheet.svg#next-button" />
               </svg>
             </button>
             <div class="euid-bl-pagination__container">
               <button class="play-state__btn">
                 <svg>
-                  <use href="./images/sprite-sheet.svg#pause-button"/>
+                  <use href="./images/sprite-sheet.svg#pause-button" />
                 </svg>
               </button>
               <ul class="pagination__list">
@@ -461,7 +463,7 @@
             </div>
             <button type="button" class="lecture-review__btn">
               <svg>
-                <use href="./images/sprite-sheet.svg#play-button"/>
+                <use href="./images/sprite-sheet.svg#play-button" />
               </svg>
             </button>
           </section>
@@ -490,7 +492,7 @@
                 </h3>
                 <img src="./css/images/lecture-brochure.png" alt="Cafe W 브로슈어">
                 <svg>
-                  <use href="./images/sprite-sheet.svg#up-arrow-button"/>
+                  <use href="./images/sprite-sheet.svg#up-arrow-button" />
                 </svg>
               </a>
             </section>
@@ -502,13 +504,18 @@
     <section class="youtube">
       <h2 class="a11y-hidden">cafeW 유튜브 영상</h2>
       <figure class="youtube-wrapper">
-        <iframe aria-labelledby="cafeWYoutube" width="663" height="373" src="https://www.youtube.com/embed/lmYSIiZFxPI" allowfullscreen></iframe>
+        <iframe aria-labelledby="cafeWYoutube" width="663" height="373" src="https://www.youtube.com/embed/lmYSIiZFxPI"
+          allowfullscreen></iframe>
         <figcaption class="a11y-hidden" id="cafeWYoutube">
           강좌의 상품가격 및 할인 안내
         </figcaption>
       </figure>
-      <svg class="youtube__Wstar-icon--dark"><use href="./images/sprite-sheet.svg#star-symbol-youtube"></use></svg>
-      <svg class="youtube__Wstar-icon--dark"><use href="./images/sprite-sheet.svg#star-symbol-youtube"></use></svg>
+      <svg class="youtube__Wstar-icon--dark">
+        <use href="./images/sprite-sheet.svg#star-symbol-youtube"></use>
+      </svg>
+      <svg class="youtube__Wstar-icon--dark">
+        <use href="./images/sprite-sheet.svg#star-symbol-youtube"></use>
+      </svg>
     </section>
 
     <!-- 이효형 5.홈-리저브 -->
@@ -520,7 +527,9 @@
           <p class="reserve__text">입 안 가득 퍼지는 산뜻하고 <span class="white-space"></span> 따뜻한 봄의 향기</p>
           <a href="#" class="reserve__link">자세히 보기</a>
         </div>
-        <svg class="reserve__Wstar-icon--origin"><use href="./images/sprite-sheet.svg#star-symbol-reserve"></use></svg>
+        <svg class="reserve__Wstar-icon--origin">
+          <use href="./images/sprite-sheet.svg#star-symbol-reserve"></use>
+        </svg>
       </div>
     </section>
 
@@ -529,20 +538,21 @@
       <div class="favorite__inner">
         <h2 class="favorite__headline a11y-hidden">home favorite</h2>
         <div class="favorite__container">
-        <span class="favorite__text">PICK</span>
-        <span class="favorite__text">YOUR</span>
-        <span class="favorite__text">FAVORITE</span>
-        <p class="favorite__text">다양한 메뉴를<span class="white-space"></span> 카페 W에서 즐겨보세요</p>
-        <p class="favorite__text">카페 W만의 특별함을 경험할 수 있는 최상의 선택 음료 카페<span class="white-space"></span>W 커피와 완벽한 어울림을 자랑하는
-        푸드<span class="white-space"></span>사용한 시도와 디자인으로 가치를 더하는 상품<span class="white-space"></span>소중한 사람에게 마음을 전하는
-        가장 좋은 방법. 카페 W 카드</p>
-        <a href="#" class="favorite__link">자세히 보기</a>
-      </div>
-      <ul class="favorite__list">
-        <li class="favorite__item"><img src="./css/images/favrotie-item1-crop.jpg" alt="latte-1"></li>
-        <li class="favorite__item"><img src="./css/images/favorite-item2-crop.jpg" alt="latte-2"></li>
-        <li class="favorite__item"><img src="./css/images/favrorite-item3crop.jpg" alt="latte-3"></li>
-      </ul>
+          <span class="favorite__text">PICK</span>
+          <span class="favorite__text">YOUR</span>
+          <span class="favorite__text">FAVORITE</span>
+          <p class="favorite__text">다양한 메뉴를<span class="white-space"></span> 카페 W에서 즐겨보세요</p>
+          <p class="favorite__text">카페 W만의 특별함을 경험할 수 있는 최상의 선택 음료 카페<span class="white-space"></span>W 커피와 완벽한 어울림을
+            자랑하는
+            푸드<span class="white-space"></span>사용한 시도와 디자인으로 가치를 더하는 상품<span class="white-space"></span>소중한 사람에게 마음을 전하는
+            가장 좋은 방법. 카페 W 카드</p>
+          <a href="#" class="favorite__link">자세히 보기</a>
+        </div>
+        <ul class="favorite__list">
+          <li class="favorite__item"><img src="./css/images/favrotie-item1-crop.jpg" alt="latte-1"></li>
+          <li class="favorite__item"><img src="./css/images/favorite-item2-crop.jpg" alt="latte-2"></li>
+          <li class="favorite__item"><img src="./css/images/favrorite-item3crop.jpg" alt="latte-3"></li>
+        </ul>
       </div>
     </section>
     <!-- 최진영 7. 홈-랩 -->
@@ -563,7 +573,7 @@
     <!-- 최진영: 8. 홈-이듬 교육과정보기 -->
     <section class="euid-curriculum">
       <div class="euid-curriculum__inner">
-        <div class="flipper">    
+        <div class="flipper">
           <div class="euid-curriculum__container-front">
             <img src="./css/images/euid-Medal-Front.png" class="euid-curriculum__medal-front" alt="medal-front">
           </div>
@@ -589,8 +599,10 @@
         <a href="#" class="store-locator__link">매장 찾기</a>
 
         <ul class="store-locator-photo-list">
-          <li class="store-locator-photo-item-1"><img src="./css/images/store-locator__item1-crop.png" alt="store-photo"></li>
-          <li class="store-locator-photo-item-2"><img src="./css/images/store-locator__item2-crop.png" alt="store-photo"></li>
+          <li class="store-locator-photo-item-1"><img src="./css/images/store-locator__item1-crop.png"
+              alt="store-photo"></li>
+          <li class="store-locator-photo-item-2"><img src="./css/images/store-locator__item2-crop.png"
+              alt="store-photo"></li>
         </ul>
         <img class="store-locator-coffe-store" src="./css/images/store-locater__Coffee-Store.png" alt="coffe-store">
       </div>
@@ -640,8 +652,10 @@
     </div>
   </footer>
   <a class="goto-top" href="#">
-    <svg class="up-arrow-button"><use href="./images/sprite-sheet.svg#up-arrow-button"></use></svg>
+    <svg class="up-arrow-button">
+      <use href="./images/sprite-sheet.svg#up-arrow-button"></use>
+    </svg>
   </a>
 </body>
 
-</html> 
+</html>
