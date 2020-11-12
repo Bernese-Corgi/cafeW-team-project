@@ -10,11 +10,12 @@
 
 
 
-
-
-
-
+@import url(./lecture-recommend.css);
+@import url(./lab.css);
+@import url(./lecture-inform.css);
+@import url(./beverage.css);
 @import url(./skip-nav.css);
 @import url(./header.css);
 @import url(./variable.css);
 @import url(./common.css);
+@import url(./notice-bar.css);
