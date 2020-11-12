@@ -49,7 +49,7 @@
 /* 회원가입 폼 */
 .sign-up__form {
   /* background: skyblue; */
-  width: 438px;
+  width: 440px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -62,8 +62,6 @@
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-top: 20px;
-  display: inline-block;
 }
 
 .sign-up__form .required::after {
@@ -71,13 +69,13 @@
   color: var(--theme-terra);
 }
 
-.sign-up-gender .sign-up-gender__label {
+.sign-up-gender__container .sign-up-gender__label {
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.2;
 }
 
-.sign-up-gender .sign-up-gender__label::after {
+.sign-up-gender__container .sign-up-gender__label::after {
   content: '';
 }
 
@@ -92,39 +90,83 @@
   line-height: 1.2;
 }
 
-.sign-up-agreement__text {
-  font-size: 1.2rem;
-  line-height: 1.2;
-}
-
 /* 회원가입 폼 input 스타일 */
 .sign-up__form input {
   /* 입력 전 스타일, 기본 */
-  /* display: inline-block; */
-  /* width: 100%; */
   border: 1px solid var(--theme-gold);
   border-radius: 3px;
   border-color: rgba(125, 111, 93, 0.5);
   padding: 9px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
-/* 
+/* 회원가입 폼 정렬 및 여백 */
 .sign-up-id__container,
 .sign-up-pw__container,
 .sign-up-pw-confirm__container,
 .sign-up-tel__container {
   display: flex;
   flex-flow: column;
+  margin-top: 10px;
+}
 
+.sign-up-id__container label,
+.sign-up-pw__container label,
+.sign-up-pw-confirm__container label,
+.sign-up-tel__container label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.sign-up-name-gender__wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sign-up-gender__text--bold {
+  width: 100%;
+}
+
+.sign-up-name__container {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.sign-up-gender__container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.sign-up-gender__container .sign-up-gender__input {
+  margin-top: 0;
+
+}
+
+/* .sign-up-gender__text--bold {
+  width: 100%;
 } */
 
-.sign-up-id__container input,
+
+
+.sign-up-gender__label {
+  background: red;
+}
+
+.sign-up-gender__text--bold {
+  display: inline;
+}
+
+/* .sign-up-id__container input,
 .sign-up-pw__container input,
 .sign-up-pw-confirm__container input,
 .sign-up-tel__container input {
   width: 100%;
-}
+} */
 
 
 .sign-up-birth__container select {
@@ -132,14 +174,33 @@
   border-radius: 3px;
   border-color: rgba(125, 111, 93, 0.5);
   padding: 9px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 
 }
 
-.sign-up-gender__input {
+/* .sign-up-gender__input {
   display: inline;
-}
+} */
 
 /* .sign-up-gender {
   display: inline;
 } */
+
+
+
+.sign-up-auth__text {
+  font-size: 1.2rem;
+}
+
+/* 회원가입폼 - 선택동의사항 */
+.sign-up-agreement__inner {
+  background: var(--theme-white);
+  border: 1px solid var(--theme-gold);
+  border-radius: 3px;
+  padding: 17px;
+}
+
+.sign-up-agreement__text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
