@@ -4,12 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cafe W</title>
+  <title>Cafe W 로그인</title>
 
   <!-- 스타일링 -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="shortcut icon" href="" type="image/x-icon">
-
+  <link rel="icon" href="../favicon.png">
 
 </head>
 
@@ -23,11 +22,11 @@
   <header class="app-header">
     <div class="app-header__inner">
       <h1 class="header-logo">
-        <a href="#"><img src="../images/header-logo--white.png" alt="Cafe W"></a>
+        <a href="../index.html"><img src="../images/header-logo--white.png" alt="Cafe W"></a>
       </h1>
       <ul class="member__list">
-        <li class="member__item"><a href="#">Sign In</a></li>
-        <li class="member__item"><a href="#">Sign Up</a></li>
+        <li class="member__item"><a href="./sign-in.html">Sign In</a></li>
+        <li class="member__item"><a href="./sign-up.html">Sign Up</a></li>
       </ul>
       <form action="#" method="POST" class="search-form">
         <fieldset>
@@ -36,7 +35,9 @@
             <label class="a11y-hidden" for="searchBar">검색 입력 칸</label>
             <input type="search" id="searchBar" class="search-form__input">
             <button class="search-form__btn">
-              <svg></svg>
+              <svg>
+                <use href="../images/sprite-sheet.svg#search-button">
+              </svg>
             </button>
           </div>
         </fieldset>
@@ -148,7 +149,7 @@
     </section>
   </main>
   <!-- footer -->
-  <footer class=" app-footer">
+  <footer class="app-footer">
     <div class="app-footer__container">
       <div class="footer-logo">
         <img src="../images/footer-logo--gray.png" alt="Cafe W 로고 이미지">
@@ -176,7 +177,6 @@
           <a href="#">사이트맵</a>
         </li>
       </ul>
-
       <address class="address">
         <span>서울시 강남구 테헤란로 10길 18 K&I 타워 카페 W (2F)</span>
         <span class="divider" aria-hidden="true">|</span>
@@ -187,13 +187,12 @@
         <span class="divider" aria-hidden="true">|</span>
         <span>대표이사 : 김데레사</span>
       </address>
-
       <small class="copyright">&copy; 2020 CAFE W COMPANY. ALL RIGHTS RESERVED.</small>
     </div>
   </footer>
-  <button class="goto-top" type="button">
-    <svg></svg>
-  </button>
+  <a class="goto-top" href="#">
+    <svg class="up-arrow-button"><use href="../images/sprite-sheet.svg#up-arrow-button"></use></svg>
+  </a>
 </body>
 
 </html>

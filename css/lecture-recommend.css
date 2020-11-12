@@ -201,12 +201,8 @@
   color: var(--theme-white);
 }
 
-.euid-bl .euid-bl__list {
-  background-color: skyblue;  
-}
 .euid-bl__item {
   margin-top: 104px;
-  background-color: red;
   width: 387px;
   height: 424px;
   position: relative;
