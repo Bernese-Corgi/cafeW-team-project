@@ -9,7 +9,7 @@
     position: relative;
     height: 420px;
     /* padding-top: 80px; */
-    padding-right: 270px;   
+    padding-right: 265px;   
 }
 .store-locator__headline {
     font-weight: 700;
@@ -21,25 +21,29 @@
     margin-bottom: 15px;
     line-height: 30px;
 }
+.store-locator__text em {
+    font-weight: 700;
+    
+}
 
 .store-locator-photo-item-1 {
     position: absolute;
     width: 360px;
     height: 360px;
     top: -50px;
-    left: 130px;
+    left: 174px;
 }
 .store-locator-photo-item-2 {
     position: absolute;
     width: 220px;
     height: 220px;
     top: 140px;
-    left: 400px;
+    left: 440px;
 }
 .store-locator-coffe-store {
     position: absolute;
     bottom: 0px;
-    right: 250px;
+    right: 350px;
 }
 .store-locator__link {
     text-align: center;
