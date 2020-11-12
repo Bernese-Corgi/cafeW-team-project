@@ -1,5 +1,12 @@
+body {
+  padding-top: 82px;
+}
 .app-header {
   background-color: #282725;
+  border-bottom: 1px solid rgba(255, 252, 249, 0.15);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 .app-header__inner {
   width: 1211px;
@@ -46,11 +53,24 @@
 .search-form__input {
   width: 242px;
   height: 40px;
+  background: transparent;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 60px;
+  color: var(--theme-white);
+}
+.search-form__input:hover {
+  border-bottom: 1px solid var(--theme-white);
 }
 .search-form__btn {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   position: absolute;
-  top: 8px;
-  right: 8px;
+  right: 3px;
+  background: transparent;
+  border: 0;
+}
+.search-form__btn svg {
+  width: 100%;
+  height: 100%;
 }

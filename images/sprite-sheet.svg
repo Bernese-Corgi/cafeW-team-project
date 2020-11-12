@@ -7,6 +7,9 @@
   <symbol id="down-button" viewBox="0 0 40 40">
     <path fill="#FFFCF9" d="M20 25.22L31.836 13 33 14.202 20 27.625 7 14.202 8.164 13 20 25.22z" />
   </symbol>
+  <symbol id="down-button-dark" viewBox="0 0 40 40">
+    <path fill="##282725" d="M20 25.22L31.836 13 33 14.202 20 27.625 7 14.202 8.164 13 20 25.22z" />
+  </symbol>
   <symbol id="decrease" viewBox="0 0 40 40">
     <path fill="#FFFCF9" fill-rule="evenodd"
       d="M10 32a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H10zm10-4.8l6.24-6.48h-4.329V12.8h-4.017v7.92H13.76L20 27.2z"
@@ -44,16 +47,16 @@
     <path d="M1 2.8V14l3-2.9.1-.1h5.1L1 2.8z" />
   </symbol>
   <symbol id="next-button" viewBox="0 0 40 40">
-    <path fill="#FFFCF9" d="M13 30.875l10.898-10.91L13 9.055 14.055 8 26.03 19.965 14.055 31.93 13 30.875z" />
+    <path fill="#282725" d="M13 30.875l10.898-10.91L13 9.055 14.055 8 26.03 19.965 14.055 31.93 13 30.875z" />
   </symbol>
   <symbol id="play-button" viewBox="0 0 40 40">
     <path fill="#FFFCF9" d="M28 20.5L13 10v21l15-10.5z" />
   </symbol>
   <symbol id="prev-button" viewBox="0 0 40 40">
-    <path fill="#FFFCF9" d="M26.031 30.875l-1.054 1.055L13 19.965 24.977 8l1.054 1.055-10.898 10.91 10.898 10.91z" />
+    <path fill="#282725" d="M26.031 30.875l-1.054 1.055L13 19.965 24.977 8l1.054 1.055-10.898 10.91 10.898 10.91z" />
   </symbol>
   <symbol id="pause-button" viewBox="0 0 40 40">
-    <path fill="#FFFCF9" d="M14 30V10h3.5v20H14zm9.5-20H27v20h-3.5V10z" />
+    <path fill="#282725" d="M14 30V10h3.5v20H14zm9.5-20H27v20h-3.5V10z" />
   </symbol>
   <symbol id="search-button" viewBox="0 0 40 40">
     <path fill="#FFFCF9"
