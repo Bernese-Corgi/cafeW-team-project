@@ -189,6 +189,7 @@
 
 }
 
+.sign-up-auth__container
 /* .sign-up-gender__text--bold {
   width: 100%;
 } */
@@ -396,4 +397,17 @@
   cursor: pointer;
   background: var(--theme-black);
   box-shadow: 0 5px 10px 5px rgba(125, 111, 93, 0.3)
+}
+
+.sign-up__form input[required]+label::after OR .sign-up__form input[required]~label::after .sign-up-pw__container label::after,
+.sign-up-pw-confirm__container label::after,
+.sign-up-tel__container label::after,
+.sign-up-name__container label::after,
+.sign-up-gender__text--bold::after,
+.sign-up-birth__text--bold::after,
+.sign-up-auth__text--bold::after,
+.sign-up-nickname__container label::after,
+.sign-up-agreement__container label::after {
+  content: '*';
+  color: var(--theme-terra);
 }
