@@ -1,0 +1,60 @@
+.store-locator {
+    background: radial-gradient(65.6% 264.49% at 59.55% 37.62%, rgba(40, 39, 37, 0.95) 0%, #282725 73.46%, #171615 100%);
+    line-height: 110%;
+    color: #FFFCF9;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 420px;
+    /* padding-top: 80px; */
+    padding-right: 265px;   
+}
+.store-locator__headline {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    margin-bottom: 10px;
+}
+.store-locator__text {
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.store-locator__text em {
+    font-weight: 700;
+    
+}
+
+.store-locator-photo-item-1 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: -50px;
+    left: 174px;
+}
+.store-locator-photo-item-2 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 140px;
+    left: 440px;
+}
+.store-locator-coffe-store {
+    position: absolute;
+    bottom: 0px;
+    right: 350px;
+}
+.store-locator__link {
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid;
+    border-radius: 3px;
+    display: inline-block;
+    width: 113px;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    letter-spacing: 0;
+}
+

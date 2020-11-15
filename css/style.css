@@ -1,0 +1,39 @@
+/* 폰트 설정 */
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+/* reset.css */
+@import url(./reset.css);
+@import url(./default.css);
+@import url(./component.css);
+@import url(./footer.css);
+@import url(./variable.css);
+@import url(./nav.css);
+
+
+
+@import url(./lecture-recommend.css);
+@import url(./lab.css);
+@import url(./lecture-inform.css);
+@import url(./beverage.css);
+@import url(./skip-nav.css);
+@import url(./header.css);
+@import url(./variable.css);
+@import url(./common.css);
+@import url(./notice-bar.css);
+
+
+
+
+
+
+
+@import url(./video.css);
+@import url(./reserve.css);
+@import url(./favorite.css);
+@import url(./store-locater.css);
+@import url(./euid-curriculum.css);
+@import url(./gototop.css);
+
+
+@import url(./sign-up.css);
+@import url(./sign-in.css);
+
